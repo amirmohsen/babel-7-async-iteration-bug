@@ -1,0 +1,28 @@
+{
+  "name": "babel-7-async-iterator-bug",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "babel ./src -d ./dist -s",
+    "start:dist": "node ./dist",
+    "start": "babel-node ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirmohsen/babel-7-async-iterator-bug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amirmohsen/babel-7-async-iterator-bug/issues"
+  },
+  "homepage": "https://github.com/amirmohsen/babel-7-async-iterator-bug#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.6"
+  }
+}
